@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
+  <Tracking>
+    <ImageTarget name="teratai" size="1.000000 1.333333" />
+    <ImageTarget name="sakura" size="1.000000 1.777778" />
+    <ImageTarget name="matahari" size="1.000000 1.777778" />
+    <ImageTarget name="mawar" size="1.000000 1.777778" />
+    <ImageTarget name="melati" size="1.000000 1.777778" />
+    <ImageTarget name="lili" size="1.000000 1.777778" />
+    <ImageTarget name="anggrek" size="1.000000 1.777778" />
+  </Tracking>
+</QCARConfig>

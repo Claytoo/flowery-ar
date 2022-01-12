@@ -1,0 +1,78 @@
+# 3ds Max Wavefront OBJ Exporter v0.97b - (c)2007 guruware
+# File Created: 18.01.2012 10:45:48
+
+newmtl snowdrop_flower_pestle
+	Ns 27.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.1000 0.1000 0.1000
+	Kd 0.9098 0.6471 0.1333
+	Ks 0.0270 0.0270 0.0270
+	Ke 0.0000 0.0000 0.0000
+
+newmtl snowdrop_flower_stem
+	Ns 55.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0119 0.0180 0.0110
+	Ke 0.0000 0.0000 0.0000
+	map_Kd snowdrop_flower_diffuse.jpg
+	map_Ks snowdrop_flower_specular.jpg
+	map_bump snowdrop_flower_bump.jpg
+	bump snowdrop_flower_bump.jpg
+
+newmtl snowdrop_flower_petal
+	Ns 52.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 0.0510 0.0510 0.0510
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0283 0.0283 0.0283
+	Ke 0.0000 0.0000 0.0000
+	map_Kd snowdrop_flower_diffuse.jpg
+	map_Ks snowdrop_flower_specular.jpg
+	map_bump snowdrop_flower_bump.jpg
+	bump snowdrop_flower_bump.jpg
+
+newmtl snowdrop_flower_leaf
+	Ns 49.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0081 0.0137 0.0026
+	Ke 0.0000 0.0000 0.0000
+	map_Kd snowdrop_flower_diffuse.jpg
+	map_Ks snowdrop_flower_specular.jpg
+	map_bump snowdrop_flower_bump.jpg
+	bump snowdrop_flower_bump.jpg
+
+newmtl snowdrop_flower_leaves
+	Ns 23.0000
+	Ni 1.5000
+	d 1.0000
+	Tr 0.0000
+	Tf 1.0000 1.0000 1.0000 
+	illum 2
+	Ka 1.0000 1.0000 1.0000
+	Kd 1.0000 1.0000 1.0000
+	Ks 0.0270 0.0270 0.0270
+	Ke 0.0000 0.0000 0.0000
+	map_Kd snowdrop_flower_diffuse.jpg
+	map_Ks snowdrop_flower_specular.jpg
+	map_bump snowdrop_flower_bump.jpg
+	bump snowdrop_flower_bump.jpg

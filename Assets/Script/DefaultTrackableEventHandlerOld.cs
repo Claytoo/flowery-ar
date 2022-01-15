@@ -17,6 +17,8 @@ namespace Vuforia
         #region PRIVATE_MEMBER_VARIABLES
  
         private TrackableBehaviour mTrackableBehaviour;
+        public AudioSource aSource;
+        public AudioClip aClip;
     
         #endregion // PRIVATE_MEMBER_VARIABLES
 
@@ -87,6 +89,35 @@ namespace Vuforia
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " found");
 
             SystemConfig.instance.GUI_AR.SetActive(false);
+
+            if (mTrackableBehaviour.TrackableName == "teratai")
+            {
+                aSource.PlayOneShot(aClip);
+            }
+            if (mTrackableBehaviour.TrackableName == "sakura")
+            {
+                aSource.PlayOneShot(aClip);
+            }
+            if (mTrackableBehaviour.TrackableName == "matahari")
+            {
+                aSource.PlayOneShot(aClip);
+            }
+            if (mTrackableBehaviour.TrackableName == "mawar")
+            {
+                aSource.PlayOneShot(aClip);
+            }
+            if (mTrackableBehaviour.TrackableName == "melati")
+            {
+                aSource.PlayOneShot(aClip);
+            }
+            if (mTrackableBehaviour.TrackableName == "lili")
+            {
+                aSource.PlayOneShot(aClip);
+            }
+            if (mTrackableBehaviour.TrackableName == "anggrek")
+            {
+                aSource.PlayOneShot(aClip);
+            }
         }
 
 
@@ -110,6 +141,35 @@ namespace Vuforia
             Debug.Log("Trackable " + mTrackableBehaviour.TrackableName + " lost");
 
             SystemConfig.instance.GUI_AR.SetActive(true);
+
+            if (mTrackableBehaviour.TrackableName == "teratai")
+            {
+                aSource.Stop();
+            }
+            if (mTrackableBehaviour.TrackableName == "sakura")
+            {
+                aSource.Stop();
+            }
+            if (mTrackableBehaviour.TrackableName == "matahari")
+            {
+                aSource.Stop();
+            }
+            if (mTrackableBehaviour.TrackableName == "mawar")
+            {
+                aSource.Stop();
+            }
+            if (mTrackableBehaviour.TrackableName == "melati")
+            {
+                aSource.Stop();
+            }
+            if (mTrackableBehaviour.TrackableName == "lili")
+            {
+                aSource.Stop();
+            }
+            if (mTrackableBehaviour.TrackableName == "anggrek")
+            {
+                aSource.Stop();
+            }
         }
         
 
